@@ -8,6 +8,7 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
+        "landing-assets",
         "assets",
         "favicon.ico"
       ],
@@ -18,10 +19,29 @@
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
-      "styles": [
-        "styles.css"
+      "styles": ["./landing-assets/css/bootstrap.min.css",
+       "./landing-assets/css/owl.carousel.min.css",
+       "./landing-assets/css/icofont.css",
+       "./landing-assets/css/magnific-popup.css",
+       "./landing-assets/css/animate.css",
+       "./landing-assets/css/normalize.css",
+       "./landing-assets/style.css",
+       "./landing-assets/css/responsive.css"
       ],
-      "scripts": [],
+       "scripts": [ "./landing-assets/js/vendor/jquery-1.12.4.min.js",
+        "./landing-assets/js/vendor/bootstrap.min.js",
+        "./landing-assets/js/owl.carousel.min.js",
+        "./landing-assets/js/appear.js",
+        "./landing-assets/js/bars.js",
+        "./landing-assets/js/waypoints.min.js",
+        "./landing-assets/js/counterup.min.js",
+        "./landing-assets/js/easypiechart.min.js",
+        "./landing-assets/js/mixitup.min.js",
+        "./landing-assets/js/contact-form.js",
+        "./landing-assets/js/scrollUp.min.js",
+        "./landing-assets/js/magnific-popup.min.js",
+        "./landing-assets/js/wow.min.js",
+        "./landing-assets/js/main.js"],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
